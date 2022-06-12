@@ -1,4 +1,4 @@
-name: Mejba123/public-web-gatsby
+name: Mejba123/gatsby-starter-blog
 
 on:
   push:
@@ -13,7 +13,7 @@ env:
   Branches: master
   MainBranch: master
   NPMRegistry: https://registry.npmjs.org/
-  InstallCommand: npm ci
+  InstallCommand: npm i
   BuildCommand: npm run build
   Output: ./public
 
